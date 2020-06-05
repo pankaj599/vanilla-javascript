@@ -1,0 +1,54 @@
+*
+{
+margin:0px;
+padding: 0px;
+}body
+{
+    line-height: 1.6;
+}
+.button
+{
+    background: blueviolet;
+    height: 40px;
+    width: 100px;
+    margin:10px;
+    font-size: medium;
+}
+.button:hover{
+    background: aqua;
+}
+.modal
+{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    overflow:auto;
+}
+.modal-class
+{
+    background-color: white;
+    margin: 30%;
+    padding: 10px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,.2);
+}
+.close-modal
+{
+   /* padding-left: 5px;
+   padding-right: 5px; */
+    font-size: 20px;
+    float:right;
+    color: coral;
+    /*background:aquamarine;*/
+    
+}
+.close-modal:hover,.close-modal:focus{
+    color:black;
+    cursor:pointer;
+    text-decoration: none;
+    /* background-color: burlywood; */
+}
